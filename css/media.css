@@ -1,0 +1,58 @@
+@media(min-width:320px){
+	
+	.container{
+		width:100%;
+		margin:auto;
+	}
+	.title{
+		width:85%;
+	}
+	.title h1{
+		font-size:25px;
+	}
+	.title p::after{
+		position:absolute;
+		top:27%;
+		left:30%;
+	}
+}
+
+@media(min-width:760px){
+	
+	.container{
+		width:90%;
+		margin:auto;
+	}
+	.title{
+		width:35%;
+	}
+	.title h1{
+		font-size:20px;
+	}
+	.title p::after{
+		position:absolute;
+		top:33%;
+		left:35%;
+	}
+}
+
+@media(min-width:960px){
+	
+	.container{
+		width:85%;
+		margin:auto;
+	}
+	.title{
+		
+		width:32%;
+	}
+	.title h1{
+		text-align:center;
+		font-size:30px;
+	}
+	.title p::after{
+		position:absolute;
+		top:25%;
+		left:25%;
+	}
+}

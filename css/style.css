@@ -1,0 +1,33 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family: 'Roboto', sans-serif;
+	}
+	/* .container{ */
+		/* width:85%; */
+		/* margin:auto; */
+	/* } */
+	.title{
+		/* width:32%; */
+		line-height:2;
+		padding:20px 0px;
+		margin:auto;
+		position:relative;
+	}
+	.title p{
+		font-size:14px;
+		color:#ccc;
+	}
+	.title p::after{
+		/* position:absolute; */
+		/* top:25%; */
+		/* left:25%; */
+		
+		content:"";
+		border-top:1px solid brown;
+		width:100px;
+	}
+	/* .title h1{ */
+		/* font-size:30px; */
+	/* } */
